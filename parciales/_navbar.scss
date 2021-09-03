@@ -1,0 +1,17 @@
+@import "./media-queries";
+@import "./colors";
+.navbar {
+  background: $mainColor;
+}
+
+.navbar {
+  @include tablet {
+    background: $cuartColor;
+  }
+}
+
+.navbar {
+  @include movil {
+    background: $terColor;
+  }
+}

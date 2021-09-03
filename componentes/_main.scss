@@ -1,0 +1,23 @@
+body {
+  background-image: url(../img/fondo.jpg);
+}
+
+.tituloObrasCompuestas {
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+a {
+  transition: all 0.3s !important;
+}
+
+a:hover {
+  color: red !important;
+  transform: scale(1.1) !important;
+}
+.carousel-inner {
+  background-image: url(../img/musicaLibreGratis.jpg);
+}
+.imagenesObras {
+  border-radius: 15px;
+  border: solid black 2px;
+}

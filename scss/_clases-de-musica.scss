@@ -1,0 +1,35 @@
+@import "../parciales/colors";
+/*CLASES DE MÚSICA*/
+%align-center {
+  display: flex;
+  align-items: center;
+}
+.bodyClasesDeMusica {
+  background-image: url(../img/comoLeerPartituras.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.clasesDeMusicaDiv {
+  @extend %align-center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 5px 5px 5px;
+  flex-direction: column;
+}
+
+.tituloClasesDeMusica {
+  display: flex;
+  justify-content: center;
+  color: $secColor;
+  text-shadow: 0.1em 0.1em 0.2em $mainColor;
+  padding: 20px;
+}
+
+.parrafoClasesDeMusica {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  color: $secColor;
+  text-shadow: 0.1em 0.1em 0.2em $mainColor;
+}

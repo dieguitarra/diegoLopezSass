@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/*CLASES DE MÚSICA*/
+.clasesDeMusicaDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bodyClasesDeMusica {
+  background-image: url(../img/comoLeerPartituras.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.clasesDeMusicaDiv {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  padding: 0px 5px 5px 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tituloClasesDeMusica {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  padding: 20px;
+}
+
+.parrafoClasesDeMusica {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+/*CONTACTO*/
+.bodyContacto {
+  background-image: url(../img/fondo.jpg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*SOBRE MÍ*/
+.bodySobreMi {
+  background-image: url(../img/oeba.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h1SobreMi {
+  color: yellow;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: 900;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 890px;
+  height: 440px;
+  text-align: center;
+  gap: 20px;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: black 0, 0, 0, 0.815;
+}
+
+.text {
+  text-align: justify;
+  line-height: 25px;
+}
+
+.img-logo {
+  height: 200px;
+  width: 200px;
+}
+
+body {
+  background-image: url(../img/fondo.jpg);
+}
+
+.tituloObrasCompuestas {
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+a {
+  -webkit-transition: all 0.3s !important;
+  transition: all 0.3s !important;
+}
+
+a:hover {
+  color: red !important;
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
+}
+
+.carousel-inner {
+  background-image: url(../img/musicaLibreGratis.jpg);
+}
+
+.imagenesObras {
+  border-radius: 15px;
+  border: solid black 2px;
+}
+
+.navbar {
+  background: black;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    background: blue;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .navbar {
+    background: yellow;
+  }
+}
+/*# sourceMappingURL=style.css.map */
